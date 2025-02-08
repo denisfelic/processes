@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessManagerClassLib", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessManagerCli", "ProcessManagerCli\ProcessManagerCli.csproj", "{97B92AEF-2447-4D3B-B4D2-40C98C78FB6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessManagerWebApi", "ProcessManagerWebApi\ProcessManagerWebApi.csproj", "{C94DF8E7-FB4E-4EA2-8F9A-AFD98464F8BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{97B92AEF-2447-4D3B-B4D2-40C98C78FB6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97B92AEF-2447-4D3B-B4D2-40C98C78FB6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97B92AEF-2447-4D3B-B4D2-40C98C78FB6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C94DF8E7-FB4E-4EA2-8F9A-AFD98464F8BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C94DF8E7-FB4E-4EA2-8F9A-AFD98464F8BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C94DF8E7-FB4E-4EA2-8F9A-AFD98464F8BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C94DF8E7-FB4E-4EA2-8F9A-AFD98464F8BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

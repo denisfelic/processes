@@ -6,19 +6,27 @@ using System.Threading.Tasks;
 
 namespace ProcessManagerClassLib
 {
+    public record ProcessDto(int Id, string Name, bool Status);
+
     public class ProcessManager
     {
-        public void ListProcesses()
+        public List<ProcessDto> GetActiveProcesses()
         {
             var processes = Process.GetProcesses();
+            var processesList = new List<ProcessDto>();
 
             processes.ToList().ForEach(p =>
             {
-                Console.WriteLine("-----------------------------------------------------");
-                Console.WriteLine("Name, PID, Status");
-                Console.WriteLine($"{p.ProcessName}, {p.Id}, {IsRunning(p.ProcessName)}");
-                Console.WriteLine("-----------------------------------------------------");
+                var newP = new ProcessDto(
+                       Id: p.Id,
+                       Name: p.ProcessName,
+                       Status: IsRunning(p.ProcessName)
+                );
+                processesList.Add(newP);
+
             });
+            return processesList;
+
         }
 
         public static bool IsRunning(string name) => Process.GetProcessesByName(name).Length > 0;

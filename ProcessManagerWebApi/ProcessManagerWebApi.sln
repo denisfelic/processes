@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessManagerWebApi", "ProcessManagerWebApi.csproj", "{BAD5AF21-FD4E-0CD6-7315-1A11880D1B7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAD5AF21-FD4E-0CD6-7315-1A11880D1B7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAD5AF21-FD4E-0CD6-7315-1A11880D1B7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAD5AF21-FD4E-0CD6-7315-1A11880D1B7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAD5AF21-FD4E-0CD6-7315-1A11880D1B7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2BE8C054-03B4-466D-9275-90D1EB75B24F}
+	EndGlobalSection
+EndGlobal

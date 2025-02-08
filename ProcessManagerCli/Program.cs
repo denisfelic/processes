@@ -5,4 +5,12 @@ Console.WriteLine("Hello, World!");
 
 
 var processManager = new ProcessManager();
-processManager.ListProcesses();
+var processList = processManager.GetActiveProcesses();
+
+foreach (var p in processList)
+{
+    Console.WriteLine("-----------------------------------------------------");
+    Console.WriteLine("Name, PID, Status");
+    Console.WriteLine($"{p.Name}, {p.Id}, {p.Status}");
+    Console.WriteLine("-----------------------------------------------------");
+}
