@@ -10,7 +10,7 @@ namespace ProcessManagerWebApi.Controllers
 {
 
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/processes")]
     public class ProcessListController : ControllerBase
     {
 
