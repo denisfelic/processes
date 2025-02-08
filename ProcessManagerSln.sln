@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessManagerClassLib", "ProcessManagerClassLib\ProcessManagerClassLib.csproj", "{9D135E64-9EE9-4937-B245-CC1D49E62E44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessManagerCli", "ProcessManagerCli\ProcessManagerCli.csproj", "{97B92AEF-2447-4D3B-B4D2-40C98C78FB6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D135E64-9EE9-4937-B245-CC1D49E62E44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D135E64-9EE9-4937-B245-CC1D49E62E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D135E64-9EE9-4937-B245-CC1D49E62E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D135E64-9EE9-4937-B245-CC1D49E62E44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97B92AEF-2447-4D3B-B4D2-40C98C78FB6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97B92AEF-2447-4D3B-B4D2-40C98C78FB6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97B92AEF-2447-4D3B-B4D2-40C98C78FB6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97B92AEF-2447-4D3B-B4D2-40C98C78FB6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
